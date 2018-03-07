@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Young_Modulus.Pages.FunctionExp.LastCalExp"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                <TextBlock Text="上次计算数据" Style="{StaticResource Heading2}" FontFamily="Microsoft YaHei UI" FontSize="18"/>
+                <TextBlock Text="如果在使用时没有存储刚刚计算的结果，那么可以" />
+                <TextBlock Text="再次打开软件，在 上次计算数据 页面会显示刚才 "/>
+                <TextBlock Text="计算的数据，同样提供 导出数据 和 更新数据 选项"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

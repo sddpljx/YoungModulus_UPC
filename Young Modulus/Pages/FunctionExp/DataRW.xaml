@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="Young_Modulus.Pages.FunctionExp.Button"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                <TextBlock Text="数据的读取和导入" Style="{StaticResource Heading2}" FontSize="18" FontFamily="Microsoft YaHei UI"/>
+                <TextBlock LineHeight="14" ><Run Text=" · "/><Run Text="软件适用于从Excel工作簿读取数据和手动输入数据"/><LineBreak/><Run Text="   · "/><Run Text="从Excel文件读取数据"/><Run Text="有两种方式"/><LineBreak/><Run Text="      · 点击"/><Run Text=" "/><Run Text="选择文件"/><Run Text=" "/><Run Text="按钮，选择Excel文件"/><LineBreak/><Run Text="      · "/><Run Text="将文件路径"/><Run Text="放入文本框中，再点击读取数据"/><LineBreak/><Run Text="   "/><Run Text="     "/><Run Text="数据路径格式"/><Run Text="例如"/><Run Text="：C:"/><Run Text="\\"/><Run Text="data.xlsx  C:"/><Run Text="\"/><Run Text="data.xlsx "/><LineBreak/><Run Text="                        "/><Run Text="     "/><Run Text=" "/><Run Text="    "/><Run Text=" "/><Run Text="&quot;C:"/><Run Text="\"/><Run Text="data.xlsx&quot;"/><Run Text=" "/><Run Text="&quot;C:"/><Run Text="\\"/><Run Text="data.xlsx&quot;"/><LineBreak/><Run Text="   · 直接输入数据"/><LineBreak/><Run Text="      · 可以在计算界面中的表格中直接输入所需的数据"/><LineBreak/><Run Text="        注意：请按照第一行给定的格式输入"/><LineBreak/><Run Text=" "/><Run Text="· 显示在DataGrid表格中的数据可以导出为Excel文档"/><LineBreak/><Run Text="   · 点击 导出数据 按钮，输入文件名并选择文件地址"/><LineBreak/><Run Text="   "/><Run Text="  "/><Run Text="读取和导出数据的状态会显示在窗口右侧"/><LineBreak/><Run Text=" · "/><Run Text="完成一次计算后，如要更换数据，可点击初始化按钮"/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

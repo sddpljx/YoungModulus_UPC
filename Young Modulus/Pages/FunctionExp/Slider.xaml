@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="Young_Modulus.Pages.FunctionExp.BasicPage1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300">
+    <Grid Style="{StaticResource ContentRoot}">
+        <TextBlock Text="滑动条" HorizontalAlignment="Left"  Style="{StaticResource Heading2}" FontSize="18"/>
+        <Slider HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="82" Value="5"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="14"><LineBreak/><Run/><LineBreak/><Run Text=" · 使用滑动条，可以"/><Run Text="轻易调节其数值。"/><LineBreak/><Run Text=" · 本程序将滑动条的数值与条纹数目绑定，"/><Run Text="方便调节"/><LineBreak/><Run Text=" · 有了滑动条后，条纹数目的调节就有两种方式"/><LineBreak/><Run Text="    · 使用滑动条调节"/><LineBreak/><Run Text="    · 直接输入数值"/></TextBlock>
+    </Grid>
+</UserControl>

@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="ModernUINavigationAppTest1.Pages.BasicPage1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                <TextBlock Text="实验器材" Style="{StaticResource Heading2}" FontFamily="Microsoft YaHei UI" FontSize="18"/>
+                <TextBlock FontSize="16"><Run Text="3D打印平台  显微镜 "/><Run Text="  CCD"/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+        <Image HorizontalAlignment="Left" Height="92" Margin="33,57,0,0" VerticalAlignment="Top" Width="110" Source="/Young Modulus;component/Pictures/DeviceExp/device2.png"/>
+        <Image HorizontalAlignment="Left" Height="117" Margin="191,139,0,0" VerticalAlignment="Top" Width="67" Source="/Young Modulus;component/Pictures/DeviceExp/device3.png"/>
+        <Image HorizontalAlignment="Left" Height="223" Margin="273,33,-118,0" VerticalAlignment="Top" Width="113" Source="/Young Modulus;component/Pictures/DeviceExp/device1.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="33,154,0,0" VerticalAlignment="Top" Width="140" Source="/Young Modulus;component/Pictures/WhitePlatform.png"/>
+    </Grid>
+</UserControl>

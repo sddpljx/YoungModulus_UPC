@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="Young_Modulus.Pages.FunctionExp.DataGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                <TextBlock Text="数据列表" Style="{StaticResource Heading2}" FontSize="18"/>
+                <TextBlock ><Run Text="数据列表所使用的控件是DataGrid"/><LineBreak/><Run Text=" · 可以实时在DataGrid中增加、删除、编辑数据"/><LineBreak/><Run Text=" · 可以显示在Excel中导入的数据"/><LineBreak/><Run Text=" · 编辑数据说明："/><LineBreak/><Run Text="    · 双击单元格可以输入数据"/><LineBreak/><Run Text="    · 按Tab键可以在横向单元格之间切换"/><LineBreak/><Run Text="    · 按回车键确定修改"/><LineBreak/><Run Text="    · 按Delte键可以删除一整行"/><LineBreak/><Run Text="    · 最后一行为空行表示可以在此行输入数据"/><LineBreak/><Run Text="    "/><Run Text="· "/><Run Text="注意：输入数据时请将每行输入完整"/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

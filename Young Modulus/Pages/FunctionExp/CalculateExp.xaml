@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="Young_Modulus.Pages.FunctionExp.CalculateExp"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                <TextBlock Text="计算" Style="{StaticResource Heading2}" FontSize="18" FontFamily="Microsoft YaHei UI"/>
+                <TextBlock ><Run Text="· "/><Run Text="当数据导入程序后，或者DataGrid 控件中有数据"/><Run Text=" "/><LineBreak/><Run Text="即可点击 计算 按钮"/><Run/><LineBreak/><Run/><LineBreak/><Run Text="· "/><Run Text="点击 计算 按钮后，计算结果将会显示在"/><Run Text=" 计算结果文本框中，可以自行复制得到的结果"/><LineBreak/><Run/><Run/><LineBreak/><Run Text="· "/><Run Text="每次点击计算按钮后，所计算的数据和结果将会自动保存到Excel文件中"/><LineBreak/><Run Text="  文件命名"/><Run Text=" "/><Run Text="yyyyMMdd_"/><Run Text="HHmmss_条纹_计算结果"/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

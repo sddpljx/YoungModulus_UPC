@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Young_Modulus.Pages.BasicPage2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+                <TextBlock Text="关于本软件" Style="{StaticResource Heading2}" />
+                <TextBlock ><Run Text=" "/><Run FontSize="14" Text="· 信息"/><LineBreak/><Run FontSize="14" Text="   名称：劈尖干涉杨氏模量计算软件"/><LineBreak/><Run FontSize="14" Text="   作者：刘建新"/><Run FontSize="14" Text="(Michael Liu)  UPC"/><LineBreak/><Run FontSize="14" Text="   "/><Run FontSize="14" Text="E-mail: sddpljx@outlook.com"/><LineBreak/><Run FontSize="14"/><LineBreak/><Run FontSize="14" Text=" · "/><Run FontSize="14" Text="平台"/><LineBreak/><Run FontSize="14" Text="   "/><Run FontSize="14" Text="Visual Studio 2017"/><LineBreak/><Run FontSize="14" Text="   Microsoft .NET "/><Run FontSize="14" Text="Framework "/><Run FontSize="14" Text="4.6.2"/><LineBreak/><Run FontSize="14" Text="   "/><Run FontSize="14" Text="C#  "/><Run FontSize="14" Text="WPFApplication"/><LineBreak/><Run FontSize="14"/><LineBreak/><Run FontSize="14" Text=" · 引用"/><LineBreak/><Run FontSize="14" Text="   NPOI"/><Run FontSize="14" Text="  "/><Run FontSize="14" Text="https://github.com/tonyqus/npoi"/><LineBreak/><Run FontSize="14" Text="   MUI"/><Run FontSize="14" Text=" "/><Run FontSize="14" Text=" https://github.com/firstfloorsoftware/mui"/><LineBreak/><Run/></TextBlock>
+            </StackPanel>
+        </ScrollViewer>
+        <Image HorizontalAlignment="Left" Height="57" Margin="346,21,-136,0" VerticalAlignment="Top" Width="58" Source="/Young Modulus;component/Pictures/Logo.ico"/>
+        <Image HorizontalAlignment="Left" Height="61" Margin="346,127,-146,0" VerticalAlignment="Top" Width="68" Source="/Young Modulus;component/Pictures/VS Logo2.png"/>
+    </Grid>
+</UserControl>
